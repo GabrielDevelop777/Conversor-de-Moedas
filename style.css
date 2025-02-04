@@ -23,7 +23,8 @@ main {
     border-radius: 20px;
     background-color: #f4f4f4;
     margin: 0 auto 40px;
-    padding: 44px 24px 23px;
+    margin-top: 0;
+    padding: 47px 25px 23px;
 }
 
 label {
@@ -106,4 +107,11 @@ section {
     color: #555555;
     font-weight: 700;
     font-size: 20px;
+}
+
+
+@media screen and (max-width: 800px){
+    .logo {
+        width: 210px;
+    }
 }
