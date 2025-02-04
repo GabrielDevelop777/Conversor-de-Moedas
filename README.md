@@ -70,5 +70,5 @@ Este projeto está sob a **Licença MIT**. Veja o arquivo [LICENSE](LICENSE) par
 ---
 
 Criado com ❤️ por [GabrielDevelop](https://github.com/GabrielDevelop777) 🚀
-![image](https://github.com/user-attachments/assets/e0916030-3292-487e-8fe0-2c91455a9955)
+
 
