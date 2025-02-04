@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <img class="logo" src="./assets/logo-center.png">
+
+    <main>
+        <label>
+            Converter <b>de</b>
+            <select>
+                <option>R$ Real Brasileiro</option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>para</b>
+            <select class="currency-select">
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra Esterlina</option>
+                <option value="bitcoin">₿ Bitcoin</option>
+
+            </select>
+        </label>
+
+        <label>
+            Valor
+            <input class="input-currency" placeholder="5.000,00">
+        </label>
+
+        <button class="convert-button">Converter</button>
+
+        <section>
+            <div class="currency-box">
+                <img src="./assets/real.png">
+                <p class="currency">Real</p>
+                <p class="currency-value-to-convert">R$0,00</p>
+            </div>
+
+            <img class="arrow-img" src="./assets/arrow.png">
+
+            <div class="currency-box">
+                <img class="currency-img" src="./assets/dolar.png">
+                <p class="currency" id="currency-name">Dólar Americano</p>
+                <p class="currency-value">US$ 0.0</p>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer style="text-align: center; padding: 10px; font-style: italic;">
+        <a href="https://github.com/GabrielDevelop777" target="_blank" style="color: #aaa; text-decoration: none;">
+            Criado por GabrielDevelop 🚀
+        </a>
+    </footer>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
