@@ -18,8 +18,12 @@
     <main>
         <label>
             Converter <b>de</b>
-            <select>
-                <option>R$ Real Brasileiro</option>
+            <select class="currency-to-select">
+                <option value="real">R$ Real Brasileiro</option>
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra Esterlina</option>
+                <option value="bitcoin">₿ Bitcoin</option>
             </select>
         </label>
 
@@ -27,6 +31,7 @@
             Converter <b>para</b>
             <select class="currency-select">
                 <option value="dolar">US$ Dólar Americano</option>
+                <option value="real">R$ Real Brasileiro</option>
                 <option value="euro">€ Euro</option>
                 <option value="libra">£ Libra Esterlina</option>
                 <option value="bitcoin">₿ Bitcoin</option>
@@ -43,8 +48,8 @@
 
         <section>
             <div class="currency-box">
-                <img src="./assets/real.png">
-                <p class="currency">Real</p>
+                <img class="currency-real" src="./assets/real.png">
+                <p class="currency-name">Real</p>
                 <p class="currency-value-to-convert">R$0,00</p>
             </div>
 
@@ -61,7 +66,7 @@
 
 
     <footer style="text-align: center; padding: 10px; font-style: italic;">
-        <a href="https://github.com/GabrielDevelop777" target="_blank" style="color: #aaa; text-decoration: none;">
+        <a href="https://www.instagram.com/gaab_9/" target="_blank" style="color: #aaa; text-decoration: none;">
             Criado por GabrielDevelop 🚀
         </a>
     </footer>
