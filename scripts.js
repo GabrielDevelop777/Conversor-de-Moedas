@@ -120,3 +120,94 @@ function changeSelect() {
 currencyToSelect.addEventListener("change", changeSelect)
 convertButton.addEventListener("click", convertValues)
 currencySelect.addEventListener("change", changeCurrency)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const convertedButton = document.querySelector(".convert-button")
+
+
+// function convertValues() {
+//     const inputConverterPara = document.querySelector(".input-currency").value
+//     const currencyValueToConvert = document.querySelector(".currency-value-to-convert")
+//     const currencyValueConverted = document.querySelector(".currency-value")
+    
+    
+// const dolarToday = 5.9
+
+//     const convertedValue = inputConverterPara / dolarToday
+
+//     currencyValueToConvert.innerHTML = new Intl.NumberFormat("pr-BR", {
+//         style: "currency",
+//         currency: "BRL"
+//     }).format(inputConverterPara)
+//     currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
+//         style: "currency",
+//         currency: "USD"
+//     }).format(convertedValue)
+
+//     console.log(convertedValue)+''
+// }
+
+
+
+
+
+convertedButton.addEventListener("click", convertValues)
