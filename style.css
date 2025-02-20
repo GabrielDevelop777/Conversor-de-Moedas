@@ -50,6 +50,10 @@ input {
     cursor: pointer;
 }
 
+.input-currency{
+    cursor: text;
+}
+
 button {
     font-weight: 700;
     font-size: 18px;
